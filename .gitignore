@@ -1,0 +1,29 @@
+# Go build and module files
+/main
+*.exe
+*.out
+*.test
+
+# Dependency directories
+/vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment and config
+.env
+
+# Docker volumes (e.g. database data)
+data/db/
+
+# Docker files (if built locally)
+*.pid
